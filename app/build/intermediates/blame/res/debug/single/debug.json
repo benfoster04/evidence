@@ -56,6 +56,10 @@
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/animator_entrypoint_logo.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/animator/entrypoint_logo.xml"
+    },
+    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
@@ -82,6 +86,14 @@
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_activity_passdia.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/layout/activity_passdia.xml"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/animator_fade_in.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/animator/fade_in.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_round.png.flat",

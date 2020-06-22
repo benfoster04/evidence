@@ -14,4 +14,5 @@
 
     <string name="widgetDescription">Widget to start recording evidence</string>
     <string name="configure">Configure</string>
+    <string name="login_button">Next</string>
 </resources>

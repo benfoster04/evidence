@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/02001b22c90536e8d31ebe7bd6f82ded/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/e01951a302939b0e3208a526dd0c478b/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -43,20 +43,20 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/benjaminfoster/.
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/db4395c426f59d71a820b6e50bfb9cf7/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/2f0812b4134b97fb1d350cd57f3d9934/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/e1de8bcd4443eda3089b74b59199124c/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-35:12
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:2:11-69
@@ -66,8 +66,20 @@ MERGED from [androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/c
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:24:5-72
 	android:name
 		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:5:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:7:5-64
+	android:name
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:8:22-68
 application
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:6:5-33:19
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:10:5-42:19
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/02001b22c90536e8d31ebe7bd6f82ded/material-1.0.0/AndroidManifest.xml:22:5-20
@@ -85,49 +97,57 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/benjaminfo
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/dc19af5998919f46b6c76e2e507e3925/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:15:9-36
 	android:label
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:10:9-49
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:9-49
 	android:icon
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:8:9-44
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:12:9-44
 	android:allowBackup
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:9-40
+activity#b.en.evidence.PasswordDialogue
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:18:9-20:49
+	android:theme
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:13-47
+	android:name
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:13-45
 receiver#b.en.evidence.RecordEvidenceWidget
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:9-22:20
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:name
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:19-55
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:22:19-55
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:15:13-17:29
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:23:13-25:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:17-84
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:17-84
 	android:name
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:25-81
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:25-81
 meta-data#android.appwidget.provider
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:13-21:71
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:27:13-29:71
 	android:resource
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:21:17-68
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:29:17-68
 	android:name
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:17-58
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:17-58
 activity#b.en.evidence.ActivityEntrypoint
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:9-32:20
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:32:9-41:20
 	android:label
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:34:13-45
+	android:theme
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:35:13-44
 	android:name
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:25:13-47
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:33:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:39:27-74
 uses-sdk
 INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml

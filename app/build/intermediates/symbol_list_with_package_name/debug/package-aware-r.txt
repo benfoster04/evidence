@@ -30,6 +30,8 @@ anim design_snackbar_out
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
+animator entrypoint_logo
+animator fade_in
 animator mtrl_btn_state_list_anim
 animator mtrl_btn_unelevated_state_list_anim
 animator mtrl_chip_state_list_anim
@@ -1145,6 +1147,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id center
 id center_horizontal
@@ -1173,6 +1176,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id editTextTextPassword
 id edit_query
 id end
 id enterAlways
@@ -1200,7 +1204,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView2
 id info
 id invisible
@@ -1211,8 +1214,11 @@ id largeLabel
 id left
 id line1
 id line3
+id linearLayout
+id linearLayout2
 id listMode
 id list_item
+id loader
 id masked
 id message
 id middle
@@ -1222,6 +1228,7 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id navigation_header_container
 id never
+id nextModal
 id none
 id normal
 id notification_background
@@ -1237,7 +1244,6 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
-id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -1301,6 +1307,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1324,6 +1331,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id widget_btn
 id withText
 id wrap
 id wrap_content
@@ -1382,6 +1390,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_entrypoint
+layout activity_passdia
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1467,6 +1476,7 @@ string generic_error_user_canceled
 string hide_bottom_view_on_scroll_behavior
 string invalid_password
 string invalid_username
+string login_button
 string login_failed
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
@@ -1487,6 +1497,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppEntry
+style AppPassword
 style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
