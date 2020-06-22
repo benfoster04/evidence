@@ -33,63 +33,62 @@
 21-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:10:9-49
 22        android:supportsRtl="true"
 22-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:11:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:12:9-40
-25        <receiver android:name="b.en.evidence.RecordEvidenceWidget" >
-25-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:9-22:20
-25-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:19-55
-26            <intent-filter>
-26-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:15:13-17:29
-27                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-27-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:17-84
-27-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:25-81
-28            </intent-filter>
-29
-30            <meta-data
-30-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:13-21:71
-31                android:name="android.appwidget.provider"
-31-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:17-58
-32                android:resource="@xml/record_evidence_widget_info" />
-32-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:21:17-68
-33        </receiver>
-34
-35        <activity
-35-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:9-32:20
-36            android:name="b.en.evidence.ActivityEntrypoint"
-36-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:25:13-47
-37            android:label="@string/app_name" >
-37-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:26:13-45
-38            <intent-filter>
-38-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:27:13-31:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:17-69
-39-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:17-77
-41-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity
-44-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
-45            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
-45-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:29:13-78
-46            android:exported="true"
-46-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:30:13-36
-47            android:theme="@style/DeviceCredentialHandlerTheme" />
-47-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:31:13-64
-48
-49        <provider
-49-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-50            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-51            android:authorities="b.en.evidence.lifecycle-process"
-51-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-52            android:exported="false"
-52-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-53            android:multiprocess="true" />
-53-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-54    </application>
-55
-56</manifest>
+23        android:theme="@style/AppTheme" >
+23-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:12:9-40
+24        <receiver android:name="b.en.evidence.RecordEvidenceWidget" >
+24-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:9-22:20
+24-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:14:19-55
+25            <intent-filter>
+25-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:15:13-17:29
+26                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+26-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:17-84
+26-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:25-81
+27            </intent-filter>
+28
+29            <meta-data
+29-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:13-21:71
+30                android:name="android.appwidget.provider"
+30-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:17-58
+31                android:resource="@xml/record_evidence_widget_info" />
+31-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:21:17-68
+32        </receiver>
+33
+34        <activity
+34-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:9-32:20
+35            android:name="b.en.evidence.ActivityEntrypoint"
+35-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:25:13-47
+36            android:label="@string/app_name" >
+36-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:26:13-45
+37            <intent-filter>
+37-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:27:13-31:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:17-69
+38-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:17-77
+40-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+44            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+44-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:29:13-78
+45            android:exported="true"
+45-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:30:13-36
+46            android:theme="@style/DeviceCredentialHandlerTheme" />
+46-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:31:13-64
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+50            android:authorities="b.en.evidence.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/a02d1f7d80811c8c7e7367fe223ecb8b/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>

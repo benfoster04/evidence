@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/xml_record_evidence_widget_info.xml.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/xml/record_evidence_widget_info.xml"
-    },
-    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/icon_round.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/xml_record_evidence_widget_info.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/xml/record_evidence_widget_info.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_record_evidence_widget.xml.flat",
@@ -20,16 +20,16 @@
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-mdpi/_icon_round.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_activity_entrypoint.xml.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/layout/activity_entrypoint.xml"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi__icon_round.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/_icon_round.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi__icon_round.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/_icon_round.png"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_activity_entrypoint.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/layout/activity_entrypoint.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
