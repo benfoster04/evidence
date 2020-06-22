@@ -14,7 +14,7 @@
         android:roundIcon="@drawable/icon_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <receiver android:name=".record_evidence_dual_widget">
+        <receiver android:name=".RecordEvidenceDualWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

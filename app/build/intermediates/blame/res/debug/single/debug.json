@@ -1,11 +1,19 @@
 [
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_round.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/icon_round.png"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_record_evidence_dual_widget.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/layout/record_evidence_dual_widget.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/xml_record_evidence_widget_info.xml.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/xml/record_evidence_widget_info.xml"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_round.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/icon_round.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/xml_record_evidence_dual_widget_info.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/xml/record_evidence_dual_widget_info.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_record_evidence_widget.xml.flat",
@@ -20,8 +28,8 @@
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-mdpi/_icon_round.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi__icon_round.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/_icon_round.png"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_widget_dual_preview.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/widget_dual_preview.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -32,52 +40,96 @@
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/layout/activity_entrypoint.xml"
     },
     {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi__icon_round.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/_icon_round.png"
+    },
+    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_microphone.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxhdpi/icon_microphone.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi_widget_dual_preview.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxhdpi/widget_dual_preview.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xhdpi/icon_round.png"
     },
     {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_microphone.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xhdpi/icon_microphone.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_microphone.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-mdpi/icon_microphone.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_microphone.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/icon_microphone.png"
+    },
+    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/icon_round.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xhdpi_icon_camera.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xhdpi/icon_camera.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_round.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxhdpi/icon_round.png"
-    },
-    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/animator_entrypoint_logo.xml.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/animator/entrypoint_logo.xml"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_round.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxhdpi/icon_round.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/animator_entrypoint_logo.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/animator/entrypoint_logo.xml"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_camera.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxhdpi/icon_camera.png"
+    },
+    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-nodpi_example_appwidget_preview.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-nodpi/example_appwidget_preview.png"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-mdpi_widget_dual_preview.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-mdpi/widget_dual_preview.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_widget_dual_preview.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/widget_dual_preview.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi__icon_round.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/_icon_round.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi__icon_round.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/_icon_round.png"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_microphone.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/icon_microphone.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_camera.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-hdpi/icon_camera.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi__icon_round.png.flat",
@@ -108,16 +160,28 @@
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xhdpi/_icon_round.png"
     },
     {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xhdpi_widget_dual_preview.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xhdpi/widget_dual_preview.png"
+    },
+    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-mdpi_icon_camera.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-mdpi/icon_camera.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_camera.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/icon_camera.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

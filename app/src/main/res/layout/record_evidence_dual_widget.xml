@@ -10,20 +10,26 @@
 
     <ImageButton
         android:id="@+id/dualWidgetLeft"
+        style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="100dp"
         android:layout_height="match_parent"
         android:layout_gravity="fill_horizontal"
+        android:layout_marginRight="5dp"
         android:layout_weight="1"
+        android:background="@color/backgroundSecondary"
         android:contentDescription="@string/app_name"
         android:scaleType="fitCenter"
         android:src="@drawable/icon_microphone" />
 
     <ImageButton
         android:id="@+id/dualWidgetRight"
+        style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="100dp"
         android:layout_height="match_parent"
         android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="5dp"
         android:layout_weight="1"
+        android:background="@color/backgroundSecondary"
         android:contentDescription="@string/app_name"
         android:scaleType="fitCenter"
         android:src="@drawable/icon_camera" />
