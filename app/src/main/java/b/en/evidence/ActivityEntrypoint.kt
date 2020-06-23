@@ -1,6 +1,8 @@
 package b.en.evidence
 
 import android.animation.ObjectAnimator
+import android.app.AlertDialog
+import android.app.Dialog
 import android.content.Context
 import android.content.DialogInterface
 import android.content.pm.PackageManager
@@ -13,6 +15,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.DialogCompat
 import androidx.core.content.ContextCompat
 import java.util.concurrent.Executor
 import java.util.jar.Manifest
@@ -47,6 +50,17 @@ class ActivityEntrypoint : AppCompatActivity() {
                 showToast("The Executable")
             }, AuthCallback())
         } else {
+            if (shouldShowRequestPermissionRationale("USE_BIOMETRICS")) {
+                val al = AlertDialog.Builder(this)
+                    .setTitle("Biometric Login")
+                    .setMessage("Evidence can be used along side your device's biometric sensor.")
+                    .setIcon(R.drawable.icon_round)
+                    .setPositiveButton("Yes please",DialogInterface.OnClickListener { /*dialogInterface*/_, /*i*/_ ->  showToast("Yes Please")})
+                    .setNegativeButton("No thanks", DialogInterface.OnClickListener { /*dialogInterface*/_, /*i*/_ ->  showToast("No thanks")})
+                    .create()
+                al.show()
+            }
+
             findViewById<ProgressBar>(R.id.loader).setProgress(100, true)
             ObjectAnimator.ofFloat(btn, "alpha", 1f).apply {
                 duration = 1000
