@@ -1150,7 +1150,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id buttonPanel
 id center
 id center_horizontal
@@ -1181,7 +1180,6 @@ id direct
 id disableHome
 id dualWidgetLeft
 id dualWidgetRight
-id editTextTextPassword
 id edit_query
 id end
 id enterAlways
@@ -1221,6 +1219,7 @@ id line1
 id line3
 id linearLayout
 id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id loader
@@ -1276,6 +1275,10 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id setAuthNext
+id setAuthPassLength
+id setAuthPassword
+id setAuthPasswordConfirm
 id shortcut
 id showCustom
 id showHome
@@ -1313,6 +1316,8 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView3
+id textView4
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1396,6 +1401,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_entrypoint
 layout activity_passdia
+layout activity_set_auth
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1485,6 +1491,7 @@ string invalid_username
 string login_button
 string login_failed
 string mtrl_chip_close_icon_content_description
+string password_count
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1492,6 +1499,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string prompt_email
 string prompt_password
+string prompt_password_confirm
 string search_menu_title
 string status_bar_notification_info_overflow
 string welcome

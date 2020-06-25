@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class AuthEntrypoint {
     fun doesAuthExist() : Boolean {
 
-        return true
+        return false
     }
     fun setAuth( ps: String ) : Boolean {
         return true

@@ -16,4 +16,5 @@
     <string name="configure">Configure Evidence</string>
     <string name="login_button">Next</string>
     <string name="prompt_password_confirm">Confirm Password</string>
+    <string name="password_count">%1$s/8</string>
 </resources>

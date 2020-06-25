@@ -72,12 +72,12 @@
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_icon_camera.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxxhdpi/icon_camera.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_record_evidence_dual_widget.xml.flat",
@@ -118,6 +118,10 @@
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-xxhdpi_widget_dual_preview.png.flat",
         "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/drawable-xxhdpi/widget_dual_preview.png"
+    },
+    {
+        "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/layout_activity_set_auth.xml.flat",
+        "source": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/res/layout/activity_set_auth.xml"
     },
     {
         "merged": "/Users/benjaminfoster/Desktop/Projects/Evidence/app/build/intermediates/res/merged/debug/drawable-hdpi_icon_microphone.png.flat",
