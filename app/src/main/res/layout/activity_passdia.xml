@@ -69,7 +69,7 @@
             android:layout_height="50dp">
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/setAuthPasswordConfirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints='""'
@@ -82,7 +82,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/setAuthNext"
                 style="@android:style/Widget.Material.Button.Borderless"
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"

@@ -1053,6 +1053,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dual_background
 drawable fingerprint_dialog_error_to_fp
 drawable fingerprint_dialog_fp_to_error
 drawable ic_launcher_background

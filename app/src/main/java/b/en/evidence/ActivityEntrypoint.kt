@@ -6,6 +6,7 @@ import android.app.Dialog
 import android.content.Context
 import android.content.DialogInterface
 import android.content.pm.PackageManager
+import android.content.pm.PermissionInfo
 import android.hardware.biometrics.BiometricManager
 import android.hardware.biometrics.BiometricPrompt
 import android.os.Bundle
@@ -15,13 +16,15 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.core.app.DialogCompat
 import androidx.core.content.ContextCompat
+import b.en.evidence.auth.AuthEntrypoint
 import java.util.concurrent.Executor
 import java.util.jar.Manifest
 
 class ActivityEntrypoint : AppCompatActivity() {
-    fun showToast( txt: String ) {
+    fun showToast(txt: String ) {
         Toast.makeText(this, txt, Toast.LENGTH_SHORT).show()
     }
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +34,30 @@ class ActivityEntrypoint : AppCompatActivity() {
         btn.setOnClickListener {
             setContentView(R.layout.activity_passdia)
         }
+        if (AuthEntrypoint().doesAuthExist()) {
+            // Attempt Biometric
+            findViewById<ProgressBar>(R.id.loader).setProgress(100, true)
+            ObjectAnimator.ofFloat(btn, "alpha", 1f).apply {
+                duration = 1000
+                start()
+            }
+        } else {
+            setContentView(R.layout.activity_set_auth)
+        }
+        if (ContextCompat.checkSelfPermission(this, "ACCESS_FINE_LOCATION") == PackageManager.PERMISSION_DENIED) {
+            if (shouldShowRequestPermissionRationale("ACCESS_FINE_LOCATION")) {
+                AlertDialog.Builder(this)
+                    .setTitle("Location")
+                    .setMessage("Evidence stores device location in all recorded data")
+                    .setIcon(R.drawable.icon_round)
+                    .setPositiveButton("Ok", DialogInterface.OnClickListener { /*dialogInterface*/_, /*i*/_ -> showToast("Ok")})
+                    .setNegativeButton("No thanks", DialogInterface.OnClickListener { /*dialogInterface*/ _, /*i*/ _ -> showToast("No thanks")})
+                    .create().show()
+            }
+
+            requestPermissions(arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), PermissionInfo.PROTECTION_DANGEROUS)
+        }
+
         if (ContextCompat.checkSelfPermission(this, "USE_BIOMETRICS") == PackageManager.PERMISSION_GRANTED) {
             val bio = BiometricPrompt.Builder(this)
                 .setTitle("Evidence SSO")
@@ -61,14 +88,11 @@ class ActivityEntrypoint : AppCompatActivity() {
                 al.show()
             }
 
-            findViewById<ProgressBar>(R.id.loader).setProgress(100, true)
-            ObjectAnimator.ofFloat(btn, "alpha", 1f).apply {
-                duration = 1000
-                start()
-            }
+
             showToast("Denied")
         }
     }
+
     inner class AuthCallback : BiometricPrompt.AuthenticationCallback() {
         override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult?) {
             showToast("Auth class succeeded")
