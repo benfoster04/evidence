@@ -27,7 +27,7 @@
 15-->[androidx.biometric:biometric:1.0.1] /Users/benjaminfoster/.gradle/caches/transforms-2/files-2.1/0b6151d9925bf84a56fec3474b706ba1/biometric-1.0.1/AndroidManifest.xml:25:22-71
 16
 17    <application
-17-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:10:5-51:19
+17-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:10:5-52:19
 18        android:allowBackup="true"
 18-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:11:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,65 +46,65 @@
 27        android:theme="@style/AppTheme" >
 27-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:16:9-40
 28        <receiver android:name="b.en.evidence.RecordEvidenceDualWidget" >
-28-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:17:9-25:20
-28-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:17:19-59
+28-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:18:9-26:20
+28-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:18:19-59
 29            <intent-filter>
-29-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:18:13-20:29
+29-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:13-21:29
 30                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-30-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:17-84
-30-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:25-81
+30-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:17-84
+30-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:25-81
 31            </intent-filter>
 32
 33            <meta-data
-33-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:22:13-24:76
+33-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:23:13-25:76
 34                android:name="android.appwidget.provider"
-34-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:23:17-58
+34-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:17-58
 35                android:resource="@xml/record_evidence_dual_widget_info" />
-35-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:17-73
+35-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:25:17-73
 36        </receiver>
 37
 38        <activity
-38-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:27:9-29:50
+38-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:9-30:50
 39            android:name="b.en.evidence.PasswordDialogue"
-39-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:28:13-45
+39-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:29:13-45
 40            android:theme="@style/AppPassword" />
-40-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:29:13-47
+40-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:30:13-47
 41
 42        <receiver android:name="b.en.evidence.RecordEvidenceWidget" >
-42-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:31:9-39:20
-42-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:31:19-55
+42-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:32:9-40:20
+42-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:32:19-55
 43            <intent-filter>
-43-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:18:13-20:29
+43-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:13-21:29
 44                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-44-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:17-84
-44-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:19:25-81
+44-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:17-84
+44-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:20:25-81
 45            </intent-filter>
 46
 47            <meta-data
-47-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:22:13-24:76
+47-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:23:13-25:76
 48                android:name="android.appwidget.provider"
-48-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:23:17-58
+48-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:17-58
 49                android:resource="@xml/record_evidence_widget_info" />
-49-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:24:17-73
+49-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:25:17-73
 50        </receiver>
 51
 52        <activity
-52-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:41:9-50:20
+52-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:42:9-51:20
 53            android:name="b.en.evidence.ActivityEntrypoint"
-53-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:42:13-47
+53-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:43:13-47
 54            android:label="@string/app_name"
-54-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:43:13-45
+54-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:44:13-45
 55            android:theme="@style/AppEntry" >
-55-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:44:13-44
+55-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:45:13-44
 56            <intent-filter>
-56-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:45:13-49:29
+56-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:46:13-50:29
 57                <action android:name="android.intent.action.MAIN" />
-57-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:46:17-69
-57-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:46:25-66
+57-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:47:17-69
+57-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:47:25-66
 58
 59                <category android:name="android.intent.category.LAUNCHER" />
-59-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:48:17-77
-59-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:48:27-74
+59-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:49:17-77
+59-->/Users/benjaminfoster/Desktop/Projects/Evidence/app/src/main/AndroidManifest.xml:49:27-74
 60            </intent-filter>
 61        </activity>
 62        <activity

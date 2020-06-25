@@ -14,7 +14,6 @@
         android:roundIcon="@drawable/icon_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".SetAuthDialogue"></activity>
 
         <receiver android:name=".RecordEvidenceDualWidget">
             <intent-filter>
