@@ -86,6 +86,7 @@ class ActivityEntrypoint : AppCompatActivity() {
             val pass = findViewById<EditText>(R.id.setAuthPassword)
             val cPass =findViewById<EditText>(R.id.setAuthPasswordConfirm)
             val passL =findViewById<TextView>(R.id.setAuthPassLength)
+            val err = findViewById<TextView>(R.id.setAuthError)
             passL.text = String.format(resources.getString(R.string.password_count), pass.text.length)
             pass.addTextChangedListener {
                 val l = pass.text.length
@@ -105,14 +106,20 @@ class ActivityEntrypoint : AppCompatActivity() {
                 }
                 return@setOnKeyListener false
             }
+            pass.setOnFocusChangeListener { /*view*/_, /*b*/_ -> err.text = ""}
+            cPass.setOnFocusChangeListener {/*view*/_, /*b*/_ -> err.text = ""}
             findViewById<Button>(R.id.setAuthNext).setOnClickListener {
                 if (pass.text.isBlank() || cPass.text.isBlank() ) {
-                    showToast("Nothing in either field")
+                    err.text = resources.getString(R.string.error_missing_content)
+                    return@setOnClickListener
                 } else if (pass.text.length < 8) {
-                    showToast("Not long enough")
-                } else if (pass.text != cPass.text) {
-                    showToast("Don't match")
+                    err.text = resources.getString(R.string.error_length)
+                    return@setOnClickListener
+                } else if (pass.text.toString() != cPass.text.toString()) {
+                    err.text = resources.getString(R.string.error_nomatch)
+                    return@setOnClickListener
                 }
+
             }
         }
 //        if (ContextCompat.checkSelfPermission(this, "USE_BIOMETRICS") == PackageManager.PERMISSION_GRANTED) {

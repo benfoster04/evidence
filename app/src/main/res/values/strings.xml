@@ -1,20 +1,16 @@
 <resources>
     <string name="app_name">Evidence</string>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="prompt_password_confirm">Confirm Password</string>
+    <string name="password_count">%1$s/8</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-    <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="error_missing_content">Both fields are required</string>
+    <string name="error_length">Password not long enough (>=8)</string>
+    <string name="error_nomatch">Passwords do not match</string>
 
     <string name="widgetDescription">Widget to start recording evidence</string>
     <string name="configure">Configure Evidence</string>
-    <string name="login_button">Next</string>
-    <string name="prompt_password_confirm">Confirm Password</string>
-    <string name="password_count">%1$s/8</string>
+    <string name="next">Next</string>
 </resources>
