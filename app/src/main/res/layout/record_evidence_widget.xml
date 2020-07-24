@@ -6,7 +6,7 @@
     android:padding="@dimen/widget_margin">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/widget_btn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/widgetDescription"
